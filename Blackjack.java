@@ -198,6 +198,7 @@ public class Blackjack {
                     dealerCardsSum += card.getValue();
                     dealerAceCount += card.isAce()? 1 : 0;
                     dealerCards.add(card);
+                    dealerCardsSum = changeDealerAce();
                 }
                 gamePanel.repaint();
                 System.out.println("dealer " + dealerCardsSum);
