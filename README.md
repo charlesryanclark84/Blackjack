@@ -16,4 +16,6 @@ You can clone the repository at
 https://github.com/charlesryanclark84/Blackjack.git
 
 ## 🛠 Usage
-To run the game you can open a terminal window, navigate to the Blackjack directory and run the following command java App.
+To run the game you can open a terminal window, navigate to the Blackjack directory and run the following commands: 
+javac * .java
+java App.
